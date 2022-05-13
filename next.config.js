@@ -2,8 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    loader: 'static'
-  },
+    loader: "imgix",
+    path: "",
+  }
 };
 
 module.exports = nextConfig;
